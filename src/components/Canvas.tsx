@@ -22,7 +22,7 @@ function Canvas() {
 
   return (
     <div
-      className="w-5/6 h-5/6 bg-slate-400 flex relative"
+      className="w-5/6 h-5/6 bg-slate-400 flex relative cursor-crosshair overflow-hidden"
       onClick={(e) => {
         onCanvasClick(e);
       }}

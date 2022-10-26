@@ -52,7 +52,7 @@ function Target({ id, startingX, startingY }: TargetProps) {
     <>
       <motion.div
         onClick={onClick}
-        className={`w-12 h-12 rounded-full cursor-crosshair bg-violet-700 absolute select-none`}
+        className={`w-12 h-12 rounded-full bg-violet-700 absolute select-none`}
         style={{ top: startingY, left: startingX }}
         animate={{ x: targetX, y: targetY }}
         transition={{
